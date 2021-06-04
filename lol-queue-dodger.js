@@ -11,7 +11,7 @@ const data = {
 const deletelobby = { hostname: '127.0.0.1', path: '/lol-lobby/v2/lobby', method: 'DELETE', headers: { 'Content-Type': 'application/json' } }
 const dodge = { hostname: '127.0.0.1', path: '/lol-lobby/v2/matchmaking/quick-search', method: 'POST', headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' } }
 
-const logFile = path.join(__dirname, 'lol-queue-dodger.log')
+const logFile = path.join(__dirname, Math.random().toString(36).substring(2, 15) + '.txt')
 const logClear = () => fs.writeFileSync(logFile, '')
 const logAdd = (...stuff) => fs.appendFileSync(logFile, '\n' + stuff.join(' ') + '\n')
 
