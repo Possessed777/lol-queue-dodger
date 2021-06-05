@@ -30,7 +30,7 @@ if __name__ == '__main__':
         session = requests.session()
         session.verify = False
 
-        print('[*] Connected to League; Press Enter in champion select to boost lobby, Control + C to exit.')
+        print('[*] Connected to LeagueClient; Press Enter in champion select to dodge the Queue, Control+C to exit.')
 
         # Running in an infinite loop, so the user doesn't have to restart the script all the time
         while True:
@@ -46,4 +46,3 @@ if __name__ == '__main__':
             print('[+] Dodged the Queue!')
     except KeyboardInterrupt:
         exit()
-
