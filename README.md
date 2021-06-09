@@ -1,5 +1,7 @@
 # lol-queue-dodger
 
+NO LONGER WORKING (PATCH 11.12), if you have a new method, feel free to share.
+
 I take no credits for this.
 
 Riot may be able to detect the usage of this and punish you in the future, so You've been warned.
